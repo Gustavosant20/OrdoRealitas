@@ -17,6 +17,14 @@
 .conhecimento {
     color: yellow;
 }
+img {
+    height: 100px;
+}
+ .texto {
+    display: flex;
+    align-items: center;
+ }
+
 
 :root {
     --cor1:#F2F2F2;
@@ -28,8 +36,70 @@
 
     --font-ordem:'ordem';
 }
+body {
+    margin: 0px;
+    background-color: var(--cor4);
+    
+}
 
 header{
-    background-color: var(--cor2);
+    background-image: linear-gradient(to bottom, #355265, #071A26);
 }
+header > h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'ordem';
+    color:var(--cor1);
+    padding: 20px;
+    margin-top: 0px;
+}
+header > p {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+    color: var(--cor1);
+}
+
+nav {
+    background-color:var(--cor4) ;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+nav > a {
+    text-decoration: none;
+    font-family: 'ordem';
+    margin: 20px;
+    font-weight:bold;
+}
+
+main {
+    background-color: var(--cor4);
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+
+    min-width: 320px;
+    max-width: 1000px;
+
+}
+
+article {
+
+}
+article > h1 {
+    color: var(--cor1);
+    font-family: 'ordem';
+}
+article > p {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
 
