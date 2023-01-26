@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'ordem';
+    src: url('Fontes/cinta.otf.ttf') format('opentype');
+    font-weight: normal;
+}
+.energia {
+    color: purple;
+}
+.sangue{
+    color: red;
+}
+.morte {
+    color: black;
+}
+.conhecimento {
+    color: yellow;
+}
+
+:root {
+    --cor1:#F2F2F2;
+    --cor2:#355265;
+    --cor3:#0c2e45;
+    --cor4:#071A26;
+    --cor5:#0D0D0D;
+
+
+    --font-ordem:'ordem';
+}
+
+header{
+    background-color: var(--cor2);
+}
+
